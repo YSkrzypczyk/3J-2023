@@ -10,6 +10,15 @@ se-connecter:
   controller: "Security"
   action: "login"
 
+
+s-inscrire:
+  controller: "Security"
+  action: "register"
+
+login:
+  controller: "Security"
+  action: "login"
+
 deconnexion:
   controller: "Security"
   action: "logout"

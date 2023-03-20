@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e45dfe7-7734-4ee0-812b-5ac589bab036" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/www/core/Security.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/security/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/views/security/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/000-default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/000-default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/apache2.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/apache2.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/server/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/site/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/www/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/Front.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/Front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/controllers/Security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/core/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/routes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/www/routes.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/back.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/back.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/main/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/main/homepage.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1674550537" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1674550536" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KlXKWXqQEJIdkbvTa5TsCSPlb4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/yves/workspace/Ecoles/3J-2023/www/views/security",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\yves\workspace\Ecoles\3J-2023\www\views\security" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e45dfe7-7734-4ee0-812b-5ac589bab036" name="Changes" comment="" />
+      <created>1674550079256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674550079256</updated>
+      <workItem from="1674550080639" duration="6761000" />
+      <workItem from="1674809227651" duration="812000" />
+      <workItem from="1675176902771" duration="627000" />
+      <workItem from="1676972428721" duration="22677000" />
+      <workItem from="1679318193299" duration="14983000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

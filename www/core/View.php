@@ -1,8 +1,10 @@
 <?php
+namespace App\core;
 class View{
 
     private $view;
     private $template;
+    private $data = [];
 
     public function __construct(String $view, String $template = "back")
     {
@@ -32,8 +34,14 @@ class View{
         }
     }
 
+    public function assign($key, $value): void
+    {
+        $this->data[$key] = $value;
+    }
+
     public function __destruct()
     {
+        extract($this->data);
         include $this->template;
     }
 

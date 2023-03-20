@@ -6,9 +6,11 @@
     <meta name="description" content="mon super site en MVC from scratch">
 </head>
 <body>
-    <h1>Front</h1>
-    <!-- la vue  -->
-    <?php include $this->view; ?>
+<h1>Comptes</h1>
+
+
+<!-- la vue  -->
+<?php include $this->view; ?>
 
 </body>
 </html>

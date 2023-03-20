@@ -1,9 +1,13 @@
 <?php
+namespace App;
 
 spl_autoload_register(function ($class)
 {
-    if( file_exists("core/".$class.".php")){
-        include "core/".$class.".php";
+    //die($class); //  models/User
+    $class = str_ireplace("App\\", "", $class);
+    $class = str_replace("\\", "/", $class);
+    if( file_exists($class.".php")){
+        include $class.".php";
     }
 });
 
@@ -36,10 +40,12 @@ if(!file_exists("controllers/".$c.".php")){
 
 //Sinon si l'action n'existe pas die action inexistante
 include "controllers/".$c.".php";
-if(!class_exists($c)){
+$namespaceController = "App\controllers\\";
+if(!class_exists($namespaceController.$c)){
     die("La classe ".$c." n'existe pas");
 }
-$controller = new $c(); //new Front();
+
+$controller = new ($namespaceController.$c)(); //new Front();
 
 //Sinon appel de l'action
 if(!method_exists($controller, $a)){
